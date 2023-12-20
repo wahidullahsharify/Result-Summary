@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.gradient{
+    background-image: linear-gradient(to top right, hsl(252, 100%, 67%),hsl(241, 97%, 50%));
+}
+.btngradient:hover{
+    background-image: linear-gradient(to top right, hsl(252, 100%, 67%),hsl(241, 97%, 50%));
+}

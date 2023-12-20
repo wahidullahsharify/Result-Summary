@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./output.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+    <div class="h-screen bg-gray-50 flex flex-col md:max-w-2xl md:mx-auto md:h-[420px] md:mt-36 md:flex-row">
+
+      <div class="gradient max-w-[350px] p-4 mx-auto md:rounded-xl text-center md:pt-16">
+          <h1 class="text-xl text-gray-300 mb-4 font-serif">Your Result</h1>
+          <div class="gradient shadow-lg rounded-full w-24 h-24 md:h-28 md:w-28 mx-auto text-center">
+            <div class="pt-4 md:pt-5">
+            <h1 class="text-center text-4xl text-white font-bold">76</h1>
+            <p class="text-slate-300 mt-1 opacity-90">Of 100</p>
+          </div>
+          </div>
+          <h1 class="text-2xl text-gray-200 font-serif mt-4">Great</h1>
+          <p class="text-slate-300 mt-2 mb-4 opacity-90">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+
+        <div class="max-w-[350px] w-[375px]  md:shadow-2xl md:rounded-xl bg-white p-4 mx-auto ">
+          <h1 class="font-bold font-serif mb-4">Summary</h1>
+
+          
+          <div class="flex flex-row rounded-md bg-red-100 p-4 mb-4">
+          <img src="./image/icon-reaction.svg" alt="">
+            <h1 class="ml-3 text-red-500">Reaction</h1>
+            <h1 class="ml-32 md:ml-24">80<span class="opacity-60"> /100</span></h1>
+          </div>
+
+          <div class="flex flex-row rounded-md bg-orange-100 p-4 mb-4">
+          <img src="./image/icon-memory.svg" alt="">
+            <h1 class="ml-3 text-orange-600">Memory</h1>
+            <h1 class="ml-32 md:ml-24">92<span class="opacity-60"> /100</span></h1>
+          </div>
+
+          <div class="flex flex-row rounded-md bg-green-100 p-4 mb-4">
+          <img src="./image/icon-verbal.svg" alt="">
+            <h1 class="ml-3 text-green-500">Verbal</h1>
+            <h1 class="ml-36 md:ml-28">61<span class="opacity-60"> /100</span></h1>
+          </div>
+
+          <div class="flex flex-row rounded-md bg-blue-100 p-4 mb-4">
+          <img src="./image/icon-visual.svg" alt="">
+            <h1 class="ml-3 text-blue-500">Visual</h1>
+            <h1 class="ml-36 md:ml-28">72<span class="opacity-60"> /100</span></h1>
+          </div>
+
+          <button class="btngradient duration-500 hover:scale-105 ml-2 w-[95%] rounded-3xl bg-slate-800  text-gray-300 p-3 mb-1">Continue</button>
+
+        </div>
+      
+    </div>
+
+
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
